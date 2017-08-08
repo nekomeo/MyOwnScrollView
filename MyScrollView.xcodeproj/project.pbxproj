@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A1B2AA41F39700F00F2A9EB /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1B2AA31F39700F00F2A9EB /* MyScrollView.m */; };
 		6A4237021EEEFEF80057C664 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4237011EEEFEF80057C664 /* main.m */; };
 		6A4237051EEEFEF80057C664 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4237041EEEFEF80057C664 /* AppDelegate.m */; };
 		6A4237081EEEFEF80057C664 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4237071EEEFEF80057C664 /* ViewController.m */; };
 		6A42370B1EEEFEF80057C664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4237091EEEFEF80057C664 /* Main.storyboard */; };
 		6A42370D1EEEFEF80057C664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A42370C1EEEFEF80057C664 /* Assets.xcassets */; };
 		6A4237101EEEFEF80057C664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A42370E1EEEFEF80057C664 /* LaunchScreen.storyboard */; };
-		6AD441831EEF8DA200F32C3A /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD441821EEF8DA200F32C3A /* ScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A1B2AA21F39700F00F2A9EB /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		6A1B2AA31F39700F00F2A9EB /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 		6A4236FD1EEEFEF80057C664 /* MyScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4237011EEEFEF80057C664 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A4237031EEEFEF80057C664 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		6A42370C1EEEFEF80057C664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A42370F1EEEFEF80057C664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A4237111EEEFEF80057C664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6AD441811EEF8DA200F32C3A /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
-		6AD441821EEF8DA200F32C3A /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 				6A4237041EEEFEF80057C664 /* AppDelegate.m */,
 				6A4237061EEEFEF80057C664 /* ViewController.h */,
 				6A4237071EEEFEF80057C664 /* ViewController.m */,
-				6AD441811EEF8DA200F32C3A /* ScrollViewController.h */,
-				6AD441821EEF8DA200F32C3A /* ScrollViewController.m */,
+				6A1B2AA21F39700F00F2A9EB /* MyScrollView.h */,
+				6A1B2AA31F39700F00F2A9EB /* MyScrollView.m */,
 				6A4237091EEEFEF80057C664 /* Main.storyboard */,
 				6A42370C1EEEFEF80057C664 /* Assets.xcassets */,
 				6A42370E1EEEFEF80057C664 /* LaunchScreen.storyboard */,
@@ -158,7 +158,7 @@
 				6A4237081EEEFEF80057C664 /* ViewController.m in Sources */,
 				6A4237051EEEFEF80057C664 /* AppDelegate.m in Sources */,
 				6A4237021EEEFEF80057C664 /* main.m in Sources */,
-				6AD441831EEF8DA200F32C3A /* ScrollViewController.m in Sources */,
+				6A1B2AA41F39700F00F2A9EB /* MyScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
